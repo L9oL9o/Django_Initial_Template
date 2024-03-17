@@ -1,0 +1,9 @@
+IF YOU ARE USING LINUX (UBUNTU)
+
+1) Create venv = python3 -m venv venv (here the second "venv" is the name, you can name as "env" or by other name)
+2) Activate venv = source venv/bin/activate (source venv/... the name "venv" is that name which you gave before)
+3) Install Django into created venv = pip install django
+4) pip freeze -> requirements.txt = inform about installed applications other coders
+5) django-admin startproject root_name . = "." means create in the folder without creating new own,
+6) django-admin startapp app_name = creates new app in django, you can create unlimited time
+7) just set up settings and your django project is ready !
